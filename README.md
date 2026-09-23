@@ -4,7 +4,7 @@
 
 # New Tab Plus
 
-**A calm, customizable new tab for Safari on Mac**
+**A private daily plan in every new Safari tab**
 
 <p>
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13.0+">
@@ -35,10 +35,11 @@
 
 ## What it is
 
-New Tab Plus replaces Safari's new tab page with a dashboard you build yourself. Turn on the widgets you want, drag them into any layout, and set a background that changes daily. Nothing is fixed in place.
+New Tab Plus turns Safari's new tab into a private daily Flight Plan. Set one intention, move three useful things forward, open a focus block, and close the day with a short reflection. Supporting widgets and launchers stay available around that core routine.
 
 ## Features
 
+- **A daily Flight Plan.** One calm timeline connects your morning intention, three priorities, a focus block, and an evening reflection.
 - **A layout you control.** Drag any widget anywhere, resize it from its corner, save complete workspaces, and recover an earlier layout. Prefer the keyboard? Tab to a widget and use the arrow keys.
 - **Clock and world clock.** Eleven clock faces, from analog to flip to word clock, plus a separate world clock for the cities you care about.
 - **Weather at a glance.** Current conditions, how it actually feels outside, an hourly strip and a five day forecast.
