@@ -1,0 +1,21 @@
+{
+  "slug": "New-Tab-Plus",
+  "name": "New Tab Plus",
+  "appStoreId": 6792364994,
+  "version": "1.0",
+  "releaseDate": "2026-10-24T11:17:48Z",
+  "originalReleaseDate": "2026-10-24T07:00:00Z",
+  "platforms": [
+    "macOS"
+  ],
+  "requirements": {
+    "macOS": "13.0"
+  },
+  "store": {
+    "kind": "app-store",
+    "label": "App Store",
+    "url": "https://apps.apple.com/app/id6792364994"
+  },
+  "metadataSource": "https://itunes.apple.com/lookup?id=6792364994&country=us",
+  "sourceCatalog": "https://corvusdevs.github.io/apps.json"
+}

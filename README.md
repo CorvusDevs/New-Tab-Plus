@@ -9,11 +9,12 @@
 <p>
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13.0+">
   <img src="https://img.shields.io/badge/Safari-extension-1a73e8?style=flat-square&logo=safari&logoColor=white" alt="Safari extension">
-  <img src="https://img.shields.io/badge/Mac%20App%20Store-coming%20soon-2d7ff9?style=flat-square&logo=apple&logoColor=white" alt="Mac App Store, coming soon">
+  <img src="https://img.shields.io/badge/Mac%20App%20Store-available-2d7ff9?style=flat-square&logo=apple&logoColor=white" alt="Mac App Store, available">
   <img src="https://img.shields.io/badge/tracking-none-4CAF50?style=flat-square" alt="No tracking">
 </p>
 
 <p>
+  <a href="https://apps.apple.com/app/id6792364994">Mac App Store</a> ·
   <a href="https://corvusdevs.github.io/New-Tab-Plus/">Website</a> ·
   <a href="https://corvusdevs.github.io/New-Tab-Plus/support.html">Support</a> ·
   <a href="https://corvusdevs.github.io/New-Tab-Plus/privacy.html">Privacy</a>
