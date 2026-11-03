@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>New Tab Plus - A private daily plan for Safari</title>
-    <meta name="description" content="Turn every new Safari tab into a private daily Flight Plan for intention, priorities, focused work, and reflection. No account, analytics, or server of ours.">
+    <meta name="description" content="Every new Safari tab opens your private Flight Plan: one intention, three priorities, a focus block, and an evening reflection.">
     <link rel="canonical" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="en_US">
@@ -44,7 +44,7 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="New Tab Plus - A private daily plan for Safari">
-    <meta property="og:description" content="Set one intention, move three priorities forward, focus, and reflect. Your daily Flight Plan stays on your Mac.">
+    <meta property="og:description" content="Every new Safari tab opens your private Flight Plan: one intention, three priorities, a focus block, and an evening reflection.">
     <meta property="og:url" content="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:image" content="https://corvusdevs.github.io/New-Tab-Plus/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -204,6 +204,11 @@
             body { min-height: 0; }
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
+
+/* authentic-product proof v1 */
+.hero .wrap.hero-layout{max-width:1180px;display:grid;grid-template-columns:.9fr 1.35fr;gap:36px;align-items:center}.hero-intro{text-align:start}.hero-intro .hero-icon{width:64px;height:64px;border-radius:16px;margin-bottom:18px}.hero-intro h1{font-size:clamp(32px,3.8vw,48px)}.hero-intro .tagline{font-size:17px;margin-bottom:24px}.dashboard-proof{margin:0;min-width:0}.dashboard-proof a{display:block;border:1px solid var(--border);border-radius:16px;overflow:hidden}.dashboard-proof img{display:block;width:100%;height:auto}.dashboard-proof figcaption{margin-top:12px;color:var(--muted);font-size:14px;text-align:start}.flight-loop{list-style:none;padding:0;margin:0 0 32px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:day}.flight-loop li{counter-increment:day;padding:14px 0;border-top:2px solid var(--accent);font-size:15px}.flight-loop li::before{content:counter(day)'. ';color:var(--accent);font-weight:700}.workspace-proof{margin-top:28px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.workspace-proof summary{min-height:56px;padding:18px 0;cursor:pointer;font-weight:650}.workspace-proof p{color:var(--muted)}.workspace-proof .dashboard-proof{margin:16px 0 24px}.dashboard-proof a:focus-visible,.workspace-proof summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:720px){header.hero{padding:98px 0 38px}.hero .wrap.hero-layout{grid-template-columns:1fr;gap:26px}.hero-intro .hero-icon{width:56px;height:56px}.hero-intro h1{font-size:34px}.hero-intro .tagline{font-size:16px}.flight-loop{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}.dashboard-proof figcaption{font-size:13px}}
+
     </style>
 </head>
 <body>
@@ -259,20 +264,21 @@
 <script>(function(){document.addEventListener("click",function(e){var m=document.getElementById("lang-menu");if(m&&m.classList.contains("open")&&!m.contains(e.target)){m.classList.remove("open");}});})();</script>
 
 <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-layout"><div class="hero-intro">
         <img class="hero-icon" src="icon.png" alt="">
         <h1 data-i18n="idx_h1">Choose your day before the tabs take you</h1>
         <p class="tagline" data-i18n="idx_tagline">Every new Safari tab opens your private Flight Plan: one intention, three priorities, a focus block, and an evening reflection.</p>
         <a class="cta" href="https://apps.apple.com/app/id6792364994" data-i18n="idx_cta" data-product-store>Get it on the Mac App Store</a>
         <span class="cta-note" data-i18n="idx_cta_note">Requires macOS 13 or later and Safari.</span>
         <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
-    </div>
+    </div><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/flight-plan.jpg"><img src="/New-Tab-Plus/assets/proof/flight-plan.jpg" alt="Flight Plan: one intention, three priorities, focus and reflection." width="1286" height="804" fetchpriority="high"></a><figcaption data-i18n="idx_proof_caption">Flight Plan: one intention, three priorities, focus and reflection.</figcaption></figure></div>
 </header>
 
 <section id="features">
     <div class="wrap">
-        <h2 data-i18n="idx_features_h">One useful loop, morning to evening</h2>
-        <p class="section-intro" data-i18n="idx_features_intro">Flight Plan is the center. Search, shortcuts, weather, notes, calendars, and other tools support it when you need them.</p>
+        <h2 data-i18n="idx_features_h">Set the day, focus, then reflect</h2>
+        <p class="section-intro" data-i18n="idx_features_intro">Start with your Flight Plan. Add the widgets, shortcuts, and backgrounds that support your day.</p>
+        <ol class="flight-loop"><li data-i18n="idx_step_intention">Set one intention</li><li data-i18n="idx_step_priorities">Choose three priorities</li><li data-i18n="idx_step_focus">Open a focus block</li><li data-i18n="idx_step_reflect">Reflect in the evening</li></ol>
         <div class="grid">
             <div class="card">
                 <h3 data-i18n="idx_f_layout_h">A layout you control</h3>
@@ -306,11 +312,9 @@
                 <h3 data-i18n="idx_f_palette_h">Everything by keyboard</h3>
                 <p data-i18n="idx_f_palette_p">Press Cmd+K to jump to a site, run a search, switch background, or toggle any widget without touching the mouse.</p>
             </div>
-            <div class="card">
-                <h3 data-i18n="idx_f_theme_h">Made to match you</h3>
-                <p data-i18n="idx_f_theme_p">More than 20 distinct interface themes, accent colours, fonts, frosted or solid widgets, focus mode, and your own CSS if you want it.</p>
-            </div>
+
         </div>
+    <details class="workspace-proof"><summary data-i18n="idx_f_theme_h">Made to match you</summary><p data-i18n="idx_f_theme_p">More than 20 distinct interface themes, accent colours, fonts, frosted or solid widgets, focus mode, and your own CSS if you want it.</p><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/workspace.jpg"><img src="/New-Tab-Plus/assets/proof/workspace.jpg" alt="Made to match you" width="1286" height="804" loading="lazy"></a></figure></details>
     </div>
 </section>
 
@@ -321,7 +325,7 @@
         <ul class="privacy-points">
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-                <span><strong data-i18n="idx_p1_h">Nothing is sent anywhere.</strong> <span data-i18n="idx_p1_p">Your visit history is counted on your Mac and stored on your Mac. There is no account, no analytics, no telemetry, and no server of ours to send it to.</span></span>
+                <span><strong data-i18n="idx_p1_h">Your visit history stays on your Mac.</strong> <span data-i18n="idx_p1_p">Your visit history is counted on your Mac and stored on your Mac. There is no account, no analytics, no telemetry, and no server of ours to send it to.</span></span>
             </li>
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>

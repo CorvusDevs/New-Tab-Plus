@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>New Tab Plus - Safari için huzurlu, özelleştirilebilir yeni sekme</title>
-    <meta name="description" content="Safari&#x27;nin yeni sekmesini, günlük fotoğrafın üzerinde saat, hava durumu, notlar, yapılacaklar listesi, kısayollar ve daha fazlasını içeren, kendinizin düzenlediği bir panoya değiştirin; her şey Mac&#x27;inizde kalır.">
+    <meta name="description" content="Her yeni Safari sekmesi, özel Flight Plan planınızı açar: bir niyet, üç öncelik, bir odaklanma oturumu ve akşam değerlendirmesi.">
     <link rel="canonical" href="https://corvusdevs.github.io/New-Tab-Plus/i18n/tr/">
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="tr_TR">
@@ -44,7 +44,7 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="New Tab Plus - A calm, customizable new tab for Safari">
-    <meta property="og:description" content="Safari&#x27;nin yeni sekmesini, günlük fotoğrafın üzerinde saat, hava durumu, notlar, yapılacaklar listesi, kısayollar ve daha fazlasını içeren, kendinizin düzenlediği bir panoya değiştirin; her şey Mac&#x27;inizde kalır.">
+    <meta property="og:description" content="Her yeni Safari sekmesi, özel Flight Plan planınızı açar: bir niyet, üç öncelik, bir odaklanma oturumu ve akşam değerlendirmesi.">
     <meta property="og:url" content="https://corvusdevs.github.io/New-Tab-Plus/i18n/tr/">
     <meta property="og:image" content="https://corvusdevs.github.io/New-Tab-Plus/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -204,6 +204,11 @@
             body { min-height: 0; }
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
+
+/* authentic-product proof v1 */
+.hero .wrap.hero-layout{max-width:1180px;display:grid;grid-template-columns:.9fr 1.35fr;gap:36px;align-items:center}.hero-intro{text-align:start}.hero-intro .hero-icon{width:64px;height:64px;border-radius:16px;margin-bottom:18px}.hero-intro h1{font-size:clamp(32px,3.8vw,48px)}.hero-intro .tagline{font-size:17px;margin-bottom:24px}.dashboard-proof{margin:0;min-width:0}.dashboard-proof a{display:block;border:1px solid var(--border);border-radius:16px;overflow:hidden}.dashboard-proof img{display:block;width:100%;height:auto}.dashboard-proof figcaption{margin-top:12px;color:var(--muted);font-size:14px;text-align:start}.flight-loop{list-style:none;padding:0;margin:0 0 32px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:day}.flight-loop li{counter-increment:day;padding:14px 0;border-top:2px solid var(--accent);font-size:15px}.flight-loop li::before{content:counter(day)'. ';color:var(--accent);font-weight:700}.workspace-proof{margin-top:28px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.workspace-proof summary{min-height:56px;padding:18px 0;cursor:pointer;font-weight:650}.workspace-proof p{color:var(--muted)}.workspace-proof .dashboard-proof{margin:16px 0 24px}.dashboard-proof a:focus-visible,.workspace-proof summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:720px){header.hero{padding:98px 0 38px}.hero .wrap.hero-layout{grid-template-columns:1fr;gap:26px}.hero-intro .hero-icon{width:56px;height:56px}.hero-intro h1{font-size:34px}.hero-intro .tagline{font-size:16px}.flight-loop{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}.dashboard-proof figcaption{font-size:13px}}
+
     </style>
   <script src="/New-Tab-Plus/language-router.js"></script>
 </head>
@@ -260,20 +265,21 @@
 <script>(function(){document.addEventListener("click",function(e){var m=document.getElementById("lang-menu");if(m&&m.classList.contains("open")&&!m.contains(e.target)){m.classList.remove("open");}});})();</script>
 
 <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-layout"><div class="hero-intro">
         <img class="hero-icon" src="https://corvusdevs.github.io/New-Tab-Plus/icon.png" alt="">
-        <h1 data-i18n="idx_h1">Sakin bir yeni sekme, sizin tarzınızda düzenlenmiş</h1>
-        <p class="tagline" data-i18n="idx_tagline">New Tab Plus Safari'nin yeni sekmesini, her gün değişen bir fotoğrafla birlikte kendinizin oluşturduğu bir panoya değiştirir. Widget'ları istediğiniz yere sürükleyin.</p>
+        <h1 data-i18n="idx_h1">Sekmeler dikkatinizi dağıtmadan gününüzün yönünü belirleyin</h1>
+        <p class="tagline" data-i18n="idx_tagline">Her yeni Safari sekmesi, özel Flight Plan planınızı açar: bir niyet, üç öncelik, bir odaklanma oturumu ve akşam değerlendirmesi.</p>
         <a class="cta" href="https://apps.apple.com/app/id6792364994" data-i18n="idx_cta" data-product-store>Mac App Store'dan İndir</a>
         <span class="cta-note" data-i18n="idx_cta_note">macOS 13 veya sonraki bir sürüm ve Safari gerektirir.</span>
         <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
-    </div>
+    </div><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/flight-plan.jpg"><img src="/New-Tab-Plus/assets/proof/flight-plan.jpg" alt="Flight Plan: bir niyet, üç öncelik, odaklanma ve değerlendirme." width="1286" height="804" fetchpriority="high"></a><figcaption data-i18n="idx_proof_caption">Flight Plan: bir niyet, üç öncelik, odaklanma ve değerlendirme.</figcaption></figure></div>
 </header>
 
 <section id="features">
     <div class="wrap">
-        <h2 data-i18n="idx_features_h">Her şey tek sayfada</h2>
-        <p class="section-intro" data-i18n="idx_features_intro">İstediğiniz widget'ları açın, ardından bunları herhangi bir düzen içine sürükleyin; hiçbir öğe sabit değildir.</p>
+        <h2 data-i18n="idx_features_h">Günü planlayın, odaklanın, ardından değerlendirin</h2>
+        <p class="section-intro" data-i18n="idx_features_intro">Flight Plan ile başlayın. Gününüzü destekleyen araç takımlarını, kısayolları ve arka planları ekleyin.</p>
+        <ol class="flight-loop"><li data-i18n="idx_step_intention">Bir niyet belirleyin</li><li data-i18n="idx_step_priorities">Üç öncelik seçin</li><li data-i18n="idx_step_focus">Bir odaklanma oturumu başlatın</li><li data-i18n="idx_step_reflect">Akşam değerlendirme yapın</li></ol>
         <div class="grid">
             <div class="card">
                 <h3 data-i18n="idx_f_layout_h">Kontrol ettiğiniz bir düzen</h3>
@@ -307,11 +313,9 @@
                 <h3 data-i18n="idx_f_palette_h">Her şey klavye ile</h3>
                 <p data-i18n="idx_f_palette_p">Cmd+K'ye basarak bir siteye geçiş yapın, arama yapın, arka planı değiştirin veya herhangi bir widget'ı fareye dokunmadan açıp kapatın.</p>
             </div>
-            <div class="card">
-                <h3 data-i18n="idx_f_theme_h">Sizin için üretilmiştir</h3>
-                <p data-i18n="idx_f_theme_p">Vurgu renkleri, yazı tipleri, buzlu veya katı widget'lar, kaydedilmiş temalar, odak modu ve isterseniz kendi CSS'iniz.</p>
-            </div>
+
         </div>
+    <details class="workspace-proof"><summary data-i18n="idx_f_theme_h">Sizin için üretilmiştir</summary><p data-i18n="idx_f_theme_p">Vurgu renkleri, yazı tipleri, buzlu veya katı widget'lar, kaydedilmiş temalar, odak modu ve isterseniz kendi CSS'iniz.</p><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/workspace.jpg"><img src="/New-Tab-Plus/assets/proof/workspace.jpg" alt="Sizin için üretilmiştir" width="1286" height="804" loading="lazy"></a></figure></details>
     </div>
 </section>
 
@@ -322,7 +326,7 @@
         <ul class="privacy-points">
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-                <span><strong data-i18n="idx_p1_h">Hiçbir şey hiçbir yere gönderilmez.</strong> <span data-i18n="idx_p1_p">Ziyaret geçmişiniz Mac'inizde sayılır ve Mac'inizde saklanır; hesabımız, analitiklerimiz, telemetri verilerimiz veya gönderim yapacağımız bir sunucumuz bulunmamaktadır.</span></span>
+                <span><strong data-i18n="idx_p1_h">Ziyaret geçmişiniz Mac bilgisayarınızda kalır.</strong> <span data-i18n="idx_p1_p">Ziyaret geçmişiniz Mac'inizde sayılır ve Mac'inizde saklanır; hesabımız, analitiklerimiz, telemetri verilerimiz veya gönderim yapacağımız bir sunucumuz bulunmamaktadır.</span></span>
             </li>
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>

@@ -1,0 +1,18 @@
+[
+  {
+    "asset": "assets/proof/flight-plan.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/c1/6b/2ec16be4-c514-66c0-da9d-a9ac3113b404/01-flight-plan_framed.png/1286x804bb.webp",
+    "sourcePage": "https://apps.apple.com/us/app/id6792364994?platform=mac",
+    "width": 1286,
+    "height": 804,
+    "sha256": "bd37379c50f8e4235d393f0f80566c0dddb1d60af7e09f91996205d3dceeef54"
+  },
+  {
+    "asset": "assets/proof/workspace.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/11/6c/80116c4e-b015-7c6a-f357-eeaeebb1c43e/03-customization_framed.png/1286x804bb.webp",
+    "sourcePage": "https://apps.apple.com/us/app/id6792364994?platform=mac",
+    "width": 1286,
+    "height": 804,
+    "sha256": "b44c2fe0f84ae9edcef164e89ac81dd4820490264e7220ce9b0036ee5bb026fc"
+  }
+]

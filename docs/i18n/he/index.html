@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>New Tab Plus - דף חדש שקט וניתן להתאמה אישית עבור Safari</title>
-    <meta name="description" content="החלפה של הדף החדש של Safari בדשבורד שאתה מסדר בעצמך: שעון, מזג אוויר, הערות, רשימת משימות, קיצורי דרך ועוד, מעל תמונה יומית, הכל נשאר במחשב שלך.">
+    <meta name="description" content="כל כרטיסייה חדשה ב-Safari פותחת את Flight Plan הפרטי שלכם: כוונה אחת, שלוש עדיפויות, זמן ריכוז וסיכום בערב.">
     <link rel="canonical" href="https://corvusdevs.github.io/New-Tab-Plus/i18n/he/">
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="he_IL">
@@ -44,7 +44,7 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="New Tab Plus - A calm, customizable new tab for Safari">
-    <meta property="og:description" content="החלפה של הדף החדש של Safari בדשבורד שאתה מסדר בעצמך: שעון, מזג אוויר, הערות, רשימת משימות, קיצורי דרך ועוד, מעל תמונה יומית, הכל נשאר במחשב שלך.">
+    <meta property="og:description" content="כל כרטיסייה חדשה ב-Safari פותחת את Flight Plan הפרטי שלכם: כוונה אחת, שלוש עדיפויות, זמן ריכוז וסיכום בערב.">
     <meta property="og:url" content="https://corvusdevs.github.io/New-Tab-Plus/i18n/he/">
     <meta property="og:image" content="https://corvusdevs.github.io/New-Tab-Plus/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -204,6 +204,11 @@
             body { min-height: 0; }
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
+
+/* authentic-product proof v1 */
+.hero .wrap.hero-layout{max-width:1180px;display:grid;grid-template-columns:.9fr 1.35fr;gap:36px;align-items:center}.hero-intro{text-align:start}.hero-intro .hero-icon{width:64px;height:64px;border-radius:16px;margin-bottom:18px}.hero-intro h1{font-size:clamp(32px,3.8vw,48px)}.hero-intro .tagline{font-size:17px;margin-bottom:24px}.dashboard-proof{margin:0;min-width:0}.dashboard-proof a{display:block;border:1px solid var(--border);border-radius:16px;overflow:hidden}.dashboard-proof img{display:block;width:100%;height:auto}.dashboard-proof figcaption{margin-top:12px;color:var(--muted);font-size:14px;text-align:start}.flight-loop{list-style:none;padding:0;margin:0 0 32px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:day}.flight-loop li{counter-increment:day;padding:14px 0;border-top:2px solid var(--accent);font-size:15px}.flight-loop li::before{content:counter(day)'. ';color:var(--accent);font-weight:700}.workspace-proof{margin-top:28px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.workspace-proof summary{min-height:56px;padding:18px 0;cursor:pointer;font-weight:650}.workspace-proof p{color:var(--muted)}.workspace-proof .dashboard-proof{margin:16px 0 24px}.dashboard-proof a:focus-visible,.workspace-proof summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:720px){header.hero{padding:98px 0 38px}.hero .wrap.hero-layout{grid-template-columns:1fr;gap:26px}.hero-intro .hero-icon{width:56px;height:56px}.hero-intro h1{font-size:34px}.hero-intro .tagline{font-size:16px}.flight-loop{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}.dashboard-proof figcaption{font-size:13px}}
+
     </style>
   <script src="/New-Tab-Plus/language-router.js"></script>
 </head>
@@ -260,20 +265,21 @@
 <script>(function(){document.addEventListener("click",function(e){var m=document.getElementById("lang-menu");if(m&&m.classList.contains("open")&&!m.contains(e.target)){m.classList.remove("open");}});})();</script>
 
 <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-layout"><div class="hero-intro">
         <img class="hero-icon" src="https://corvusdevs.github.io/New-Tab-Plus/icon.png" alt="">
-        <h1 data-i18n="idx_h1">מסך חדש שקט, מסודר בדרכך</h1>
-        <p class="tagline" data-i18n="idx_tagline">New Tab Plus מחליף את הדף החדש של Safari בדשבורד שאתה בונה בעצמך. גרור אפליטים למקום שאתה רוצה, מעל תמונה שמתעדכנת מדי יום.</p>
+        <h1 data-i18n="idx_h1">כוונו את היום שלכם לפני שהכרטיסיות ינהלו אותו</h1>
+        <p class="tagline" data-i18n="idx_tagline">כל כרטיסייה חדשה ב-Safari פותחת את Flight Plan הפרטי שלכם: כוונה אחת, שלוש עדיפויות, זמן ריכוז וסיכום בערב.</p>
         <a class="cta" href="https://apps.apple.com/app/id6792364994" data-i18n="idx_cta" data-product-store>קבלו במאק אפ סטור</a>
         <span class="cta-note" data-i18n="idx_cta_note">נדרשים macOS 13 ואילך ו-Safari.</span>
         <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
-    </div>
+    </div><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/flight-plan.jpg"><img src="/New-Tab-Plus/assets/proof/flight-plan.jpg" alt="Flight Plan: כוונה אחת, שלוש עדיפויות, ריכוז וסיכום." width="1286" height="804" fetchpriority="high"></a><figcaption data-i18n="idx_proof_caption">Flight Plan: כוונה אחת, שלוש עדיפויות, ריכוז וסיכום.</figcaption></figure></div>
 </header>
 
 <section id="features">
     <div class="wrap">
-        <h2 data-i18n="idx_features_h">הכל על דף אחד</h2>
-        <p class="section-intro" data-i18n="idx_features_intro">הדלקו רק את הוויג'טים שאתם רוצים, ואז גררו אותם לכל תבנית. אין דבר קבוע במקום.</p>
+        <h2 data-i18n="idx_features_h">תכננו את היום, התרכזו ואז סכמו</h2>
+        <p class="section-intro" data-i18n="idx_features_intro">התחילו עם Flight Plan שלכם. הוסיפו את הווידג'טים, קיצורי הדרך והרקעים שיעזרו לכם במהלך היום.</p>
+        <ol class="flight-loop"><li data-i18n="idx_step_intention">הגדירו כוונה אחת</li><li data-i18n="idx_step_priorities">בחרו שלוש עדיפויות</li><li data-i18n="idx_step_focus">התחילו פרק זמן לריכוז</li><li data-i18n="idx_step_reflect">סכמו את היום בערב</li></ol>
         <div class="grid">
             <div class="card">
                 <h3 data-i18n="idx_f_layout_h">מבנה שאתה מנהל</h3>
@@ -307,11 +313,9 @@
                 <h3 data-i18n="idx_f_palette_h">הכל על ידי מקלדת</h3>
                 <p data-i18n="idx_f_palette_p">לחצו על Cmd+K כדי לעבור לאתר, לבצע חיפוש, להחליף רקע או להפעיל/להשבית כל ווידג'ט ללא צורך בשימוש בעכבר.</p>
             </div>
-            <div class="card">
-                <h3 data-i18n="idx_f_theme_h">התאמה אישית</h3>
-                <p data-i18n="idx_f_theme_p">צבעי הדגשה, גופנים, וידג'טים בגימור מט או אטום, ערכות נושא שמורות, מצב מיקוד ו-CSS אישי אם תרצו.</p>
-            </div>
+
         </div>
+    <details class="workspace-proof"><summary data-i18n="idx_f_theme_h">התאמה אישית</summary><p data-i18n="idx_f_theme_p">צבעי הדגשה, גופנים, וידג'טים בגימור מט או אטום, ערכות נושא שמורות, מצב מיקוד ו-CSS אישי אם תרצו.</p><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/workspace.jpg"><img src="/New-Tab-Plus/assets/proof/workspace.jpg" alt="התאמה אישית" width="1286" height="804" loading="lazy"></a></figure></details>
     </div>
 </section>
 
@@ -322,7 +326,7 @@
         <ul class="privacy-points">
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-                <span><strong data-i18n="idx_p1_h">שום דבר לא נשלח לשום מקום.</strong> <span data-i18n="idx_p1_p">היסטוריית הביקורים שלכם נספרת ונשמרת במחשב Mac שלכם. אין חשבון, אין ניתוח נתונים, אין טלמטריה ואין לנו שרת שאליו נשלח המידע.</span></span>
+                <span><strong data-i18n="idx_p1_h">היסטוריית הביקורים שלכם נשארת ב-Mac שלכם.</strong> <span data-i18n="idx_p1_p">היסטוריית הביקורים שלכם נספרת ונשמרת במחשב Mac שלכם. אין חשבון, אין ניתוח נתונים, אין טלמטריה ואין לנו שרת שאליו נשלח המידע.</span></span>
             </li>
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>

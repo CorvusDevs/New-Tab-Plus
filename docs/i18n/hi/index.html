@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>New Tab Plus - Safari के लिए एक शांत और अनुकूलन योग्य नया टैब</title>
-    <meta name="description" content="Safari के नए टैब को अपने द्वारा व्यवस्थित डैशबोर्ड से बदलें: घड़ी, मौसम, नोट्स, टू-डू, शॉर्टकट और अधिक, एक दैनिक फोटो के ऊपर, जो सब कुछ आपके Mac पर ही रहता है।">
+    <meta name="description" content="Safari का हर नया टैब आपका निजी Flight Plan खोलता है: एक इरादा, तीन प्राथमिकताएँ, एक एकाग्रता सत्र और शाम की समीक्षा।">
     <link rel="canonical" href="https://corvusdevs.github.io/New-Tab-Plus/i18n/hi/">
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="hi_IN">
@@ -44,7 +44,7 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="New Tab Plus - A calm, customizable new tab for Safari">
-    <meta property="og:description" content="Safari के नए टैब को अपने द्वारा व्यवस्थित डैशबोर्ड से बदलें: घड़ी, मौसम, नोट्स, टू-डू, शॉर्टकट और अधिक, एक दैनिक फोटो के ऊपर, जो सब कुछ आपके Mac पर ही रहता है।">
+    <meta property="og:description" content="Safari का हर नया टैब आपका निजी Flight Plan खोलता है: एक इरादा, तीन प्राथमिकताएँ, एक एकाग्रता सत्र और शाम की समीक्षा।">
     <meta property="og:url" content="https://corvusdevs.github.io/New-Tab-Plus/i18n/hi/">
     <meta property="og:image" content="https://corvusdevs.github.io/New-Tab-Plus/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -204,6 +204,11 @@
             body { min-height: 0; }
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
+
+/* authentic-product proof v1 */
+.hero .wrap.hero-layout{max-width:1180px;display:grid;grid-template-columns:.9fr 1.35fr;gap:36px;align-items:center}.hero-intro{text-align:start}.hero-intro .hero-icon{width:64px;height:64px;border-radius:16px;margin-bottom:18px}.hero-intro h1{font-size:clamp(32px,3.8vw,48px)}.hero-intro .tagline{font-size:17px;margin-bottom:24px}.dashboard-proof{margin:0;min-width:0}.dashboard-proof a{display:block;border:1px solid var(--border);border-radius:16px;overflow:hidden}.dashboard-proof img{display:block;width:100%;height:auto}.dashboard-proof figcaption{margin-top:12px;color:var(--muted);font-size:14px;text-align:start}.flight-loop{list-style:none;padding:0;margin:0 0 32px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:day}.flight-loop li{counter-increment:day;padding:14px 0;border-top:2px solid var(--accent);font-size:15px}.flight-loop li::before{content:counter(day)'. ';color:var(--accent);font-weight:700}.workspace-proof{margin-top:28px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.workspace-proof summary{min-height:56px;padding:18px 0;cursor:pointer;font-weight:650}.workspace-proof p{color:var(--muted)}.workspace-proof .dashboard-proof{margin:16px 0 24px}.dashboard-proof a:focus-visible,.workspace-proof summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:720px){header.hero{padding:98px 0 38px}.hero .wrap.hero-layout{grid-template-columns:1fr;gap:26px}.hero-intro .hero-icon{width:56px;height:56px}.hero-intro h1{font-size:34px}.hero-intro .tagline{font-size:16px}.flight-loop{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}.dashboard-proof figcaption{font-size:13px}}
+
     </style>
   <script src="/New-Tab-Plus/language-router.js"></script>
 </head>
@@ -260,20 +265,21 @@
 <script>(function(){document.addEventListener("click",function(e){var m=document.getElementById("lang-menu");if(m&&m.classList.contains("open")&&!m.contains(e.target)){m.classList.remove("open");}});})();</script>
 
 <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-layout"><div class="hero-intro">
         <img class="hero-icon" src="https://corvusdevs.github.io/New-Tab-Plus/icon.png" alt="">
-        <h1 data-i18n="idx_h1">एक शांत नया टैब, आपके अनुसार व्यवस्थित</h1>
-        <p class="tagline" data-i18n="idx_tagline">New Tab Plus, Safari के नए टैब की जगह आपके द्वारा बनाए गए डैशबोर्ड से बदल देता है। प्रतिदिन बदलती एक तस्वीर के ऊपर विजेट को जहां चाहें वहां खींचें।</p>
+        <h1 data-i18n="idx_h1">टैब आपको भटकाएँ, उससे पहले अपने दिन की दिशा तय करें</h1>
+        <p class="tagline" data-i18n="idx_tagline">Safari का हर नया टैब आपका निजी Flight Plan खोलता है: एक इरादा, तीन प्राथमिकताएँ, एक एकाग्रता सत्र और शाम की समीक्षा।</p>
         <a class="cta" href="https://apps.apple.com/app/id6792364994" data-i18n="idx_cta" data-product-store>मैक ऐप स्टोर पर प्राप्त करें</a>
         <span class="cta-note" data-i18n="idx_cta_note">macOS 13 या बाद का संस्करण और Safari आवश्यक हैं।</span>
         <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
-    </div>
+    </div><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/flight-plan.jpg"><img src="/New-Tab-Plus/assets/proof/flight-plan.jpg" alt="Flight Plan: एक इरादा, तीन प्राथमिकताएँ, एकाग्रता और समीक्षा।" width="1286" height="804" fetchpriority="high"></a><figcaption data-i18n="idx_proof_caption">Flight Plan: एक इरादा, तीन प्राथमिकताएँ, एकाग्रता और समीक्षा।</figcaption></figure></div>
 </header>
 
 <section id="features">
     <div class="wrap">
-        <h2 data-i18n="idx_features_h">एक ही पृष्ठ पर सब कुछ</h2>
-        <p class="section-intro" data-i18n="idx_features_intro">केवल उन विजेट्स को चालू करें जो आप चाहते हैं, फिर उन्हें किसी भी लेआउट में खींचें; कुछ भी स्थिर नहीं है।</p>
+        <h2 data-i18n="idx_features_h">दिन की योजना बनाएँ, ध्यान लगाएँ और फिर समीक्षा करें</h2>
+        <p class="section-intro" data-i18n="idx_features_intro">अपने Flight Plan से शुरुआत करें। ऐसे विजेट, शॉर्टकट और बैकग्राउंड जोड़ें जो दिन भर आपके काम आएँ।</p>
+        <ol class="flight-loop"><li data-i18n="idx_step_intention">एक इरादा तय करें</li><li data-i18n="idx_step_priorities">तीन प्राथमिकताएँ चुनें</li><li data-i18n="idx_step_focus">एक एकाग्रता सत्र शुरू करें</li><li data-i18n="idx_step_reflect">शाम को समीक्षा करें</li></ol>
         <div class="grid">
             <div class="card">
                 <h3 data-i18n="idx_f_layout_h">आप नियंत्रित रखने वाला लेआउट</h3>
@@ -307,11 +313,9 @@
                 <h3 data-i18n="idx_f_palette_h">सभी कीबोर्ड से</h3>
                 <p data-i18n="idx_f_palette_p">Cmd+K दबाकर किसी साइट पर जाएं, खोज चलाएं, पृष्ठभूमि बदलें या कोई भी विजेट टॉगल करें, बिना माउस को छूए।</p>
             </div>
-            <div class="card">
-                <h3 data-i18n="idx_f_theme_h">आपके अनुरूप बनाया गया</h3>
-                <p data-i18n="idx_f_theme_p">अनुकूलित रंग, फ़ॉन्ट, धुंधले या ठोस विजेट, सहेजे गए थीम, फोकस मोड और यदि आप चाहें तो अपना CSS।</p>
-            </div>
+
         </div>
+    <details class="workspace-proof"><summary data-i18n="idx_f_theme_h">आपके अनुरूप बनाया गया</summary><p data-i18n="idx_f_theme_p">अनुकूलित रंग, फ़ॉन्ट, धुंधले या ठोस विजेट, सहेजे गए थीम, फोकस मोड और यदि आप चाहें तो अपना CSS।</p><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/workspace.jpg"><img src="/New-Tab-Plus/assets/proof/workspace.jpg" alt="आपके अनुरूप बनाया गया" width="1286" height="804" loading="lazy"></a></figure></details>
     </div>
 </section>
 
@@ -322,7 +326,7 @@
         <ul class="privacy-points">
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-                <span><strong data-i18n="idx_p1_h">कहीं भी कुछ नहीं भेजा जाता।</strong> <span data-i18n="idx_p1_p">आपकी यात्रा का इतिहास आपके Mac पर गिना जाता है और वहां ही संग्रहीत किया जाता है; इसमें कोई खाता, कोई विश्लेषण, कोई टेलीमेट्री या हमारे पास कोई सर्वर नहीं है जहाँ इसे भेजा जा सके।</span></span>
+                <span><strong data-i18n="idx_p1_h">आपकी विज़िट का इतिहास आपके Mac पर ही रहता है।</strong> <span data-i18n="idx_p1_p">आपकी यात्रा का इतिहास आपके Mac पर गिना जाता है और वहां ही संग्रहीत किया जाता है; इसमें कोई खाता, कोई विश्लेषण, कोई टेलीमेट्री या हमारे पास कोई सर्वर नहीं है जहाँ इसे भेजा जा सके।</span></span>
             </li>
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>

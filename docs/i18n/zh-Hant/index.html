@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>New Tab Plus - 為 Safari 打造的寧靜、可自訂的新標籤頁</title>
-    <meta name="description" content="用自訂儀表板取代 Safari 的新標籤頁，在每日照片上顯示您自行排列的時鐘、天氣、筆記、待辦事項、快速鍵等項目，所有內容均保留在您的 Mac 上。">
+    <meta name="description" content="每個新的 Safari 分頁都會開啟你的私密 Flight Plan：一個目標、三項優先事項、一段專注時間，以及晚間回顧。">
     <link rel="canonical" href="https://corvusdevs.github.io/New-Tab-Plus/i18n/zh-Hant/">
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="zh_TW">
@@ -44,7 +44,7 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="New Tab Plus - A calm, customizable new tab for Safari">
-    <meta property="og:description" content="用自訂儀表板取代 Safari 的新標籤頁，在每日照片上顯示您自行排列的時鐘、天氣、筆記、待辦事項、快速鍵等項目，所有內容均保留在您的 Mac 上。">
+    <meta property="og:description" content="每個新的 Safari 分頁都會開啟你的私密 Flight Plan：一個目標、三項優先事項、一段專注時間，以及晚間回顧。">
     <meta property="og:url" content="https://corvusdevs.github.io/New-Tab-Plus/i18n/zh-Hant/">
     <meta property="og:image" content="https://corvusdevs.github.io/New-Tab-Plus/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -204,6 +204,11 @@
             body { min-height: 0; }
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
+
+/* authentic-product proof v1 */
+.hero .wrap.hero-layout{max-width:1180px;display:grid;grid-template-columns:.9fr 1.35fr;gap:36px;align-items:center}.hero-intro{text-align:start}.hero-intro .hero-icon{width:64px;height:64px;border-radius:16px;margin-bottom:18px}.hero-intro h1{font-size:clamp(32px,3.8vw,48px)}.hero-intro .tagline{font-size:17px;margin-bottom:24px}.dashboard-proof{margin:0;min-width:0}.dashboard-proof a{display:block;border:1px solid var(--border);border-radius:16px;overflow:hidden}.dashboard-proof img{display:block;width:100%;height:auto}.dashboard-proof figcaption{margin-top:12px;color:var(--muted);font-size:14px;text-align:start}.flight-loop{list-style:none;padding:0;margin:0 0 32px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:day}.flight-loop li{counter-increment:day;padding:14px 0;border-top:2px solid var(--accent);font-size:15px}.flight-loop li::before{content:counter(day)'. ';color:var(--accent);font-weight:700}.workspace-proof{margin-top:28px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.workspace-proof summary{min-height:56px;padding:18px 0;cursor:pointer;font-weight:650}.workspace-proof p{color:var(--muted)}.workspace-proof .dashboard-proof{margin:16px 0 24px}.dashboard-proof a:focus-visible,.workspace-proof summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:720px){header.hero{padding:98px 0 38px}.hero .wrap.hero-layout{grid-template-columns:1fr;gap:26px}.hero-intro .hero-icon{width:56px;height:56px}.hero-intro h1{font-size:34px}.hero-intro .tagline{font-size:16px}.flight-loop{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}.dashboard-proof figcaption{font-size:13px}}
+
     </style>
   <script src="/New-Tab-Plus/language-router.js"></script>
 </head>
@@ -260,20 +265,21 @@
 <script>(function(){document.addEventListener("click",function(e){var m=document.getElementById("lang-menu");if(m&&m.classList.contains("open")&&!m.contains(e.target)){m.classList.remove("open");}});})();</script>
 
 <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-layout"><div class="hero-intro">
         <img class="hero-icon" src="https://corvusdevs.github.io/New-Tab-Plus/icon.png" alt="">
-        <h1 data-i18n="idx_h1">安靜的新標籤頁，隨您心意排列</h1>
-        <p class="tagline" data-i18n="idx_tagline">New Tab Plus 取代 Safari 的新標籤頁，提供您自行打造的儀表板。您可以自由拖曳小工具，並置於每日更換的圖片之上。</p>
+        <h1 data-i18n="idx_h1">在分頁分散注意力之前，先安排好今天</h1>
+        <p class="tagline" data-i18n="idx_tagline">每個新的 Safari 分頁都會開啟你的私密 Flight Plan：一個目標、三項優先事項、一段專注時間，以及晚間回顧。</p>
         <a class="cta" href="https://apps.apple.com/app/id6792364994" data-i18n="idx_cta" data-product-store>在 Mac App Store 取得</a>
         <span class="cta-note" data-i18n="idx_cta_note">需要 macOS 13 或以上版本及 Safari。</span>
         <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
-    </div>
+    </div><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/flight-plan.jpg"><img src="/New-Tab-Plus/assets/proof/flight-plan.jpg" alt="Flight Plan：一個目標、三項優先事項、專注與回顧。" width="1286" height="804" fetchpriority="high"></a><figcaption data-i18n="idx_proof_caption">Flight Plan：一個目標、三項優先事項、專注與回顧。</figcaption></figure></div>
 </header>
 
 <section id="features">
     <div class="wrap">
-        <h2 data-i18n="idx_features_h">一頁盡覽所有內容</h2>
-        <p class="section-intro" data-i18n="idx_features_intro">只需開啟所需的 widget，即可將其拖曳至任何佈局中，佈局不會被固定。</p>
+        <h2 data-i18n="idx_features_h">安排今天，專注當下，然後回顧</h2>
+        <p class="section-intro" data-i18n="idx_features_intro">從你的 Flight Plan 開始，加入支持你日常安排的小工具、快捷連結和背景。</p>
+        <ol class="flight-loop"><li data-i18n="idx_step_intention">設定一個目標</li><li data-i18n="idx_step_priorities">選擇三項優先事項</li><li data-i18n="idx_step_focus">開始一段專注時間</li><li data-i18n="idx_step_reflect">在晚間回顧今天</li></ol>
         <div class="grid">
             <div class="card">
                 <h3 data-i18n="idx_f_layout_h">您控制的佈局</h3>
@@ -307,11 +313,9 @@
                 <h3 data-i18n="idx_f_palette_h">全鍵盤操作</h3>
                 <p data-i18n="idx_f_palette_p">按下 Cmd+K 即可跳轉至網站、執行搜尋、切換背景或切換任何小工具，無需使用滑鼠。</p>
             </div>
-            <div class="card">
-                <h3 data-i18n="idx_f_theme_h">為您量身打造</h3>
-                <p data-i18n="idx_f_theme_p">支援自訂配色、字型、霧面或實體小工具、已儲存的佈景主題、專注模式，以及您自訂的 CSS。</p>
-            </div>
+
         </div>
+    <details class="workspace-proof"><summary data-i18n="idx_f_theme_h">為您量身打造</summary><p data-i18n="idx_f_theme_p">支援自訂配色、字型、霧面或實體小工具、已儲存的佈景主題、專注模式，以及您自訂的 CSS。</p><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/workspace.jpg"><img src="/New-Tab-Plus/assets/proof/workspace.jpg" alt="為您量身打造" width="1286" height="804" loading="lazy"></a></figure></details>
     </div>
 </section>
 
@@ -322,7 +326,7 @@
         <ul class="privacy-points">
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-                <span><strong data-i18n="idx_p1_h">不會將任何內容傳送至任何地方。</strong> <span data-i18n="idx_p1_p">您的瀏覽歷史記錄會在 Mac 上計數並儲存，無需帳戶、無分析、無遙測，也無伺服器會接收這些資料。</span></span>
+                <span><strong data-i18n="idx_p1_h">造訪記錄保留在你的 Mac 上。</strong> <span data-i18n="idx_p1_p">您的瀏覽歷史記錄會在 Mac 上計數並儲存，無需帳戶、無分析、無遙測，也無伺服器會接收這些資料。</span></span>
             </li>
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>

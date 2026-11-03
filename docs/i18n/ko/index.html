@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>New Tab Plus - Safari 의 차분하고 사용자 정의 가능한 새 탭</title>
-    <meta name="description" content="새 탭을 일상의 사진 위에 시계, 날씨, 메모, 할 일, 단축키 등 사용자가 직접 구성할 수 있는 대시보드로 교체하여 모든 데이터는 Mac 에 그대로 유지됩니다.">
+    <meta name="description" content="Safari에서 새 탭을 열 때마다 나만의 Flight Plan이 열립니다. 하나의 목표, 세 가지 우선순위, 집중 시간, 저녁 회고를 한곳에 모으세요.">
     <link rel="canonical" href="https://corvusdevs.github.io/New-Tab-Plus/i18n/ko/">
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="ko_KR">
@@ -44,7 +44,7 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="New Tab Plus - A calm, customizable new tab for Safari">
-    <meta property="og:description" content="새 탭을 일상의 사진 위에 시계, 날씨, 메모, 할 일, 단축키 등 사용자가 직접 구성할 수 있는 대시보드로 교체하여 모든 데이터는 Mac 에 그대로 유지됩니다.">
+    <meta property="og:description" content="Safari에서 새 탭을 열 때마다 나만의 Flight Plan이 열립니다. 하나의 목표, 세 가지 우선순위, 집중 시간, 저녁 회고를 한곳에 모으세요.">
     <meta property="og:url" content="https://corvusdevs.github.io/New-Tab-Plus/i18n/ko/">
     <meta property="og:image" content="https://corvusdevs.github.io/New-Tab-Plus/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -204,6 +204,11 @@
             body { min-height: 0; }
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
+
+/* authentic-product proof v1 */
+.hero .wrap.hero-layout{max-width:1180px;display:grid;grid-template-columns:.9fr 1.35fr;gap:36px;align-items:center}.hero-intro{text-align:start}.hero-intro .hero-icon{width:64px;height:64px;border-radius:16px;margin-bottom:18px}.hero-intro h1{font-size:clamp(32px,3.8vw,48px)}.hero-intro .tagline{font-size:17px;margin-bottom:24px}.dashboard-proof{margin:0;min-width:0}.dashboard-proof a{display:block;border:1px solid var(--border);border-radius:16px;overflow:hidden}.dashboard-proof img{display:block;width:100%;height:auto}.dashboard-proof figcaption{margin-top:12px;color:var(--muted);font-size:14px;text-align:start}.flight-loop{list-style:none;padding:0;margin:0 0 32px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:day}.flight-loop li{counter-increment:day;padding:14px 0;border-top:2px solid var(--accent);font-size:15px}.flight-loop li::before{content:counter(day)'. ';color:var(--accent);font-weight:700}.workspace-proof{margin-top:28px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.workspace-proof summary{min-height:56px;padding:18px 0;cursor:pointer;font-weight:650}.workspace-proof p{color:var(--muted)}.workspace-proof .dashboard-proof{margin:16px 0 24px}.dashboard-proof a:focus-visible,.workspace-proof summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:720px){header.hero{padding:98px 0 38px}.hero .wrap.hero-layout{grid-template-columns:1fr;gap:26px}.hero-intro .hero-icon{width:56px;height:56px}.hero-intro h1{font-size:34px}.hero-intro .tagline{font-size:16px}.flight-loop{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}.dashboard-proof figcaption{font-size:13px}}
+
     </style>
   <script src="/New-Tab-Plus/language-router.js"></script>
 </head>
@@ -260,20 +265,21 @@
 <script>(function(){document.addEventListener("click",function(e){var m=document.getElementById("lang-menu");if(m&&m.classList.contains("open")&&!m.contains(e.target)){m.classList.remove("open");}});})();</script>
 
 <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-layout"><div class="hero-intro">
         <img class="hero-icon" src="https://corvusdevs.github.io/New-Tab-Plus/icon.png" alt="">
-        <h1 data-i18n="idx_h1">편안한 새 탭, 사용자 맞춤 구성</h1>
-        <p class="tagline" data-i18n="idx_tagline">New Tab Plus는 Safari 의 새 탭을 사용자가 직접 구성하는 대시보드로 대체합니다. 매일 바뀌는 사진 위에 원하는 위치에 위젯을 드래그하세요.</p>
+        <h1 data-i18n="idx_h1">탭에 휩쓸리기 전에 하루의 방향을 정하세요</h1>
+        <p class="tagline" data-i18n="idx_tagline">Safari에서 새 탭을 열 때마다 나만의 Flight Plan이 열립니다. 하나의 목표, 세 가지 우선순위, 집중 시간, 저녁 회고를 한곳에 모으세요.</p>
         <a class="cta" href="https://apps.apple.com/app/id6792364994" data-i18n="idx_cta" data-product-store>Mac App Store 에서 다운로드</a>
         <span class="cta-note" data-i18n="idx_cta_note">macOS 13 이상과 Safari가 필요합니다.</span>
         <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
-    </div>
+    </div><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/flight-plan.jpg"><img src="/New-Tab-Plus/assets/proof/flight-plan.jpg" alt="Flight Plan: 하나의 목표, 세 가지 우선순위, 집중과 하루 돌아보기." width="1286" height="804" fetchpriority="high"></a><figcaption data-i18n="idx_proof_caption">Flight Plan: 하나의 목표, 세 가지 우선순위, 집중과 하루 돌아보기.</figcaption></figure></div>
 </header>
 
 <section id="features">
     <div class="wrap">
-        <h2 data-i18n="idx_features_h">한 페이지에 모든 기능</h2>
-        <p class="section-intro" data-i18n="idx_features_intro">원하는 위젯만 켜서 원하는 레이아웃에 드래그할 수 있으며, 위젯은 고정되지 않습니다.</p>
+        <h2 data-i18n="idx_features_h">하루를 계획하고, 집중하고, 돌아보세요</h2>
+        <p class="section-intro" data-i18n="idx_features_intro">Flight Plan으로 시작하세요. 하루에 도움이 되는 위젯, 바로가기, 배경을 추가할 수 있습니다.</p>
+        <ol class="flight-loop"><li data-i18n="idx_step_intention">하나의 목표 정하기</li><li data-i18n="idx_step_priorities">세 가지 우선순위 선택하기</li><li data-i18n="idx_step_focus">집중 시간 시작하기</li><li data-i18n="idx_step_reflect">저녁에 하루 돌아보기</li></ol>
         <div class="grid">
             <div class="card">
                 <h3 data-i18n="idx_f_layout_h">제어 가능한 레이아웃</h3>
@@ -307,11 +313,9 @@
                 <h3 data-i18n="idx_f_palette_h">모든 작업을 키보드만으로 수행하세요.</h3>
                 <p data-i18n="idx_f_palette_p">Cmd+K 를 눌러 마우스를 건드리지 않고 사이트로 이동하거나 검색을 실행하거나 배경을 변경하거나 위젯을 토글할 수 있습니다.</p>
             </div>
-            <div class="card">
-                <h3 data-i18n="idx_f_theme_h">당신과 맞춤 제작</h3>
-                <p data-i18n="idx_f_theme_p">강조 색상, 글꼴, 반투명 또는 불투명 위젯, 저장된 테마, 집중 모드, 그리고 원한다면 직접 만든 CSS 까지 지원합니다.</p>
-            </div>
+
         </div>
+    <details class="workspace-proof"><summary data-i18n="idx_f_theme_h">당신과 맞춤 제작</summary><p data-i18n="idx_f_theme_p">강조 색상, 글꼴, 반투명 또는 불투명 위젯, 저장된 테마, 집중 모드, 그리고 원한다면 직접 만든 CSS 까지 지원합니다.</p><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/workspace.jpg"><img src="/New-Tab-Plus/assets/proof/workspace.jpg" alt="당신과 맞춤 제작" width="1286" height="804" loading="lazy"></a></figure></details>
     </div>
 </section>
 
@@ -322,7 +326,7 @@
         <ul class="privacy-points">
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-                <span><strong data-i18n="idx_p1_h">어디로도 전송되지 않습니다.</strong> <span data-i18n="idx_p1_p">방문 이력은 Mac 에서 카운트되어 Mac 에 저장되며, 계정이나 분석, 원격 감시, 또는 데이터를 전송하는 서버는 없습니다.</span></span>
+                <span><strong data-i18n="idx_p1_h">방문 기록은 사용자의 Mac에 남습니다.</strong> <span data-i18n="idx_p1_p">방문 이력은 Mac 에서 카운트되어 Mac 에 저장되며, 계정이나 분석, 원격 감시, 또는 데이터를 전송하는 서버는 없습니다.</span></span>
             </li>
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>New Tab Plus - Ein ruhiger, anpassbarer neuer Tab für Safari</title>
-    <meta name="description" content="Ersetzen Sie den neuen Safari-Tab durch ein Dashboard, das Sie selbst anordnen: Uhrzeit, Wetter, Notizen, To-Do-Listen, Kurzbefehle und mehr, über einem täglichen Foto. Alles bleibt auf Ihrem Mac.">
+    <meta name="description" content="Jeder neue Safari-Tab öffnet Ihren privaten Flight Plan: eine Absicht, drei Prioritäten, eine Fokusphase und einen abendlichen Rückblick.">
     <link rel="canonical" href="https://corvusdevs.github.io/New-Tab-Plus/i18n/de/">
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="de_DE">
@@ -44,7 +44,7 @@
     <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/New-Tab-Plus/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="New Tab Plus - A calm, customizable new tab for Safari">
-    <meta property="og:description" content="Ersetzen Sie den neuen Safari-Tab durch ein Dashboard, das Sie selbst anordnen: Uhrzeit, Wetter, Notizen, To-Do-Listen, Kurzbefehle und mehr, über einem täglichen Foto. Alles bleibt auf Ihrem Mac.">
+    <meta property="og:description" content="Jeder neue Safari-Tab öffnet Ihren privaten Flight Plan: eine Absicht, drei Prioritäten, eine Fokusphase und einen abendlichen Rückblick.">
     <meta property="og:url" content="https://corvusdevs.github.io/New-Tab-Plus/i18n/de/">
     <meta property="og:image" content="https://corvusdevs.github.io/New-Tab-Plus/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -204,6 +204,11 @@
             body { min-height: 0; }
             footer { padding-bottom: 24px; padding-top: 24px; }
         }
+
+/* authentic-product proof v1 */
+.hero .wrap.hero-layout{max-width:1180px;display:grid;grid-template-columns:.9fr 1.35fr;gap:36px;align-items:center}.hero-intro{text-align:start}.hero-intro .hero-icon{width:64px;height:64px;border-radius:16px;margin-bottom:18px}.hero-intro h1{font-size:clamp(32px,3.8vw,48px)}.hero-intro .tagline{font-size:17px;margin-bottom:24px}.dashboard-proof{margin:0;min-width:0}.dashboard-proof a{display:block;border:1px solid var(--border);border-radius:16px;overflow:hidden}.dashboard-proof img{display:block;width:100%;height:auto}.dashboard-proof figcaption{margin-top:12px;color:var(--muted);font-size:14px;text-align:start}.flight-loop{list-style:none;padding:0;margin:0 0 32px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:day}.flight-loop li{counter-increment:day;padding:14px 0;border-top:2px solid var(--accent);font-size:15px}.flight-loop li::before{content:counter(day)'. ';color:var(--accent);font-weight:700}.workspace-proof{margin-top:28px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.workspace-proof summary{min-height:56px;padding:18px 0;cursor:pointer;font-weight:650}.workspace-proof p{color:var(--muted)}.workspace-proof .dashboard-proof{margin:16px 0 24px}.dashboard-proof a:focus-visible,.workspace-proof summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:720px){header.hero{padding:98px 0 38px}.hero .wrap.hero-layout{grid-template-columns:1fr;gap:26px}.hero-intro .hero-icon{width:56px;height:56px}.hero-intro h1{font-size:34px}.hero-intro .tagline{font-size:16px}.flight-loop{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px}.dashboard-proof figcaption{font-size:13px}}
+
     </style>
   <script src="/New-Tab-Plus/language-router.js"></script>
 </head>
@@ -260,20 +265,21 @@
 <script>(function(){document.addEventListener("click",function(e){var m=document.getElementById("lang-menu");if(m&&m.classList.contains("open")&&!m.contains(e.target)){m.classList.remove("open");}});})();</script>
 
 <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-layout"><div class="hero-intro">
         <img class="hero-icon" src="https://corvusdevs.github.io/New-Tab-Plus/icon.png" alt="">
-        <h1 data-i18n="idx_h1">Eine ruhige neue Registerkarte, wie Sie es möchten</h1>
-        <p class="tagline" data-i18n="idx_tagline">New Tab Plus ersetzt den neuen Tab von Safari durch ein Dashboard, das Sie selbst gestalten. Ziehen Sie Widgets dort hin, wo Sie sie möchten, über ein Foto, das sich täglich ändert.</p>
+        <h1 data-i18n="idx_h1">Bestimmen Sie Ihren Tag, bevor die Tabs ihn bestimmen</h1>
+        <p class="tagline" data-i18n="idx_tagline">Jeder neue Safari-Tab öffnet Ihren privaten Flight Plan: eine Absicht, drei Prioritäten, eine Fokusphase und einen abendlichen Rückblick.</p>
         <a class="cta" href="https://apps.apple.com/app/id6792364994" data-i18n="idx_cta" data-product-store>Holen Sie es im Mac App Store</a>
         <span class="cta-note" data-i18n="idx_cta_note">Erfordert macOS 13 oder neuer und Safari.</span>
         <span class="product-version" dir="ltr">v<span data-product-field="version">1.0</span></span>
-    </div>
+    </div><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/flight-plan.jpg"><img src="/New-Tab-Plus/assets/proof/flight-plan.jpg" alt="Flight Plan: eine Absicht, drei Prioritäten, Fokus und Rückblick." width="1286" height="804" fetchpriority="high"></a><figcaption data-i18n="idx_proof_caption">Flight Plan: eine Absicht, drei Prioritäten, Fokus und Rückblick.</figcaption></figure></div>
 </header>
 
 <section id="features">
     <div class="wrap">
-        <h2 data-i18n="idx_features_h">Alles auf einer Seite</h2>
-        <p class="section-intro" data-i18n="idx_features_intro">Schalten Sie nur die gewünschten Widgets ein und ziehen Sie sie in jedes Layout; nichts ist fest verankert.</p>
+        <h2 data-i18n="idx_features_h">Den Tag planen, konzentriert arbeiten und zurückblicken</h2>
+        <p class="section-intro" data-i18n="idx_features_intro">Beginnen Sie mit Ihrem Flight Plan. Ergänzen Sie Widgets, Kurzbefehle und Hintergründe, die Ihren Tag unterstützen.</p>
+        <ol class="flight-loop"><li data-i18n="idx_step_intention">Eine Absicht festlegen</li><li data-i18n="idx_step_priorities">Drei Prioritäten wählen</li><li data-i18n="idx_step_focus">Eine Fokusphase starten</li><li data-i18n="idx_step_reflect">Am Abend zurückblicken</li></ol>
         <div class="grid">
             <div class="card">
                 <h3 data-i18n="idx_f_layout_h">Ein von Ihnen gesteuertes Layout</h3>
@@ -307,11 +313,9 @@
                 <h3 data-i18n="idx_f_palette_h">Alles per Tastatur</h3>
                 <p data-i18n="idx_f_palette_p">Drücken Sie Cmd+K, um zu einer Website zu springen, eine Suche durchzuführen, den Hintergrund zu wechseln oder ein Widget ohne Mauskontakt umzuschalten.</p>
             </div>
-            <div class="card">
-                <h3 data-i18n="idx_f_theme_h">Für Sie gemacht</h3>
-                <p data-i18n="idx_f_theme_p">Farbakzente, Schriftarten, Milchglas- oder feste Widgets, gespeicherte Themen, einen Fokus-Modus und Ihre eigenen CSS-Stile, falls gewünscht.</p>
-            </div>
+
         </div>
+    <details class="workspace-proof"><summary data-i18n="idx_f_theme_h">Für Sie gemacht</summary><p data-i18n="idx_f_theme_p">Farbakzente, Schriftarten, Milchglas- oder feste Widgets, gespeicherte Themen, einen Fokus-Modus und Ihre eigenen CSS-Stile, falls gewünscht.</p><figure class="dashboard-proof"><a href="/New-Tab-Plus/assets/proof/workspace.jpg"><img src="/New-Tab-Plus/assets/proof/workspace.jpg" alt="Für Sie gemacht" width="1286" height="804" loading="lazy"></a></figure></details>
     </div>
 </section>
 
@@ -322,7 +326,7 @@
         <ul class="privacy-points">
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-                <span><strong data-i18n="idx_p1_h">Nichts wird irgendwohin gesendet.</strong> <span data-i18n="idx_p1_p">Ihre Besuchsverlauf wird auf Ihrem Mac gezählt und dort gespeichert; es gibt kein Konto, keine Analysen, keine Telemetrie und keinen Server unsererseits, an den Daten gesendet werden.</span></span>
+                <span><strong data-i18n="idx_p1_h">Ihr Besuchsverlauf bleibt auf Ihrem Mac.</strong> <span data-i18n="idx_p1_p">Ihre Besuchsverlauf wird auf Ihrem Mac gezählt und dort gespeichert; es gibt kein Konto, keine Analysen, keine Telemetrie und keinen Server unsererseits, an den Daten gesendet werden.</span></span>
             </li>
             <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
